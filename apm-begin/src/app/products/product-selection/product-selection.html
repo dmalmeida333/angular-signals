@@ -4,6 +4,7 @@
   </div>
   <div class="grid">
     <div class="row">
+<<<<<<< HEAD
       <div class="cellFull">
         <select [(ngModel)]="selectedProduct">
           <option value="undefined">-- Select a product --</option>
@@ -38,6 +39,10 @@
     <div class="row">
           <div class="cellLeft">Total:</div>
           <div class="cellRight" [style.color]="color()">{{total() | currency}}</div>
+=======
+      <div class="cellLeft"><label for="quantity">Quantity:</label></div>
+      <div class="cellRight"><input class="quantityInput" id="quantity" type="number"  [(ngModel)]="quantity"></div>
+>>>>>>> 7172d07a21c5ce780511b386f3f6bc146a1ffeba
     </div>
   </div>
 
